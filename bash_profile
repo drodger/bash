@@ -3,8 +3,7 @@ if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 eval `keychain --eval id_rsa`
-eval `keychain --eval bitbucket_rsa`
-eval `keychain --eval id4_rsa`
+eval `keychain --eval pm_github_rsa`
 
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 # export PATH="/home/derek/.pyenv/bin:$PATH"

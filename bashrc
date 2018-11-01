@@ -114,6 +114,7 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 bind -x '"\C-p": vim $(fzf);'
 
+export BAT_PAGER="less"
 # added by Anaconda3 installer
 export PATH="/home/derek/anaconda3/bin:$PATH"
 . /home/derek/anaconda3/etc/profile.d/conda.sh
